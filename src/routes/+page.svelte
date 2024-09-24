@@ -156,7 +156,7 @@
 
       <!-- Call-to-Action Buttons -->
       <div
-        class="text-center mb-3 space-y-3 opacity-0 animate-slideInUp delay-800 flex justify-center"
+        class="sticky text-center opacity-0 animate-slideInUp delay-800 flex justify-center align-middle"
       >
         <div
           class="flex items-center justify-center max-w-max bg-[rgba(255,255,255,0.5)] p-2 rounded-lg space-x-1"

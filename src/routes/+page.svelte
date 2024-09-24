@@ -239,8 +239,8 @@
   @media (max-width: 890px) {
     .main {
       padding: 0;
-      height: 100vh;
-      width: 100vw;
+      max-height: 100vh;
+      max-width: 100vw;
       background-image: url("../lib/assets/mac.jpg");
       background-repeat: no-repeat;
       background-size: cover;

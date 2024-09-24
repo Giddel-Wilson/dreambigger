@@ -131,7 +131,7 @@
         <enhanced:img
           src="../lib/assets/mac.jpg"
           alt="Background"
-          class="w-full h-full object-cover border rounded-lg"
+          class="mac w-full h-full object-cover border rounded-lg"
         />
       </div>
 
@@ -285,6 +285,11 @@
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       z-index: 1000;
+    }
+
+    .mac {
+      height: 100vh;
+      width: 100vw;
     }
 
     h1 {

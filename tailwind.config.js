@@ -1,8 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+module.exports = {
+  purge: ['./src/**/*.svelte', './public/index.html'], // Add paths where your classes are used
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
-};
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}

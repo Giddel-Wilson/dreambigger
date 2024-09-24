@@ -241,6 +241,10 @@
       padding: 0;
       height: 100vh;
       width: 100vw;
+      background-image: url("../lib/assets/mac.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
 
     .container {
@@ -290,6 +294,7 @@
     .mac {
       height: 100vh;
       width: 100vw;
+      opacity: 0;
     }
 
     h1 {

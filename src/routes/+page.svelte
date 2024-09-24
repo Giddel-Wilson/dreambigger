@@ -156,7 +156,7 @@
 
       <!-- Call-to-Action Buttons -->
       <div
-        class="sticky text-center opacity-0 animate-slideInUp delay-800 flex justify-center align-middle"
+        class="ct0B text-center opacity-0 animate-slideInUp delay-800 flex justify-center align-middle"
       >
         <div
           class="flex items-center justify-center max-w-max bg-[rgba(255,255,255,0.5)] p-2 rounded-lg space-x-1"
@@ -285,6 +285,11 @@
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
       z-index: 1000;
+    }
+    
+    .ctoB {
+      position: absolute;
+      bottom: 5;
     }
 
     h1 {
